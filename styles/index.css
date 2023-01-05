@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Broken15";
+  src: url("/fonts/Broken15-vywD.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+    font-family: "Punkboy";
+    src: url("../public/fonts/punkboy_tbs.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
