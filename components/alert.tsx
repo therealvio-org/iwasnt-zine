@@ -9,8 +9,8 @@ const Alert = ({ preview }: Props) => {
   return (
     <div
       className={cn("border-b", {
-        "bg-black border-black text-white": preview,
-        "bg-white border-white text-black": !preview,
+        "border-black bg-black text-white": preview,
+        "border-white bg-white text-black": !preview,
       })}
     >
       <Container>
@@ -20,7 +20,7 @@ const Alert = ({ preview }: Props) => {
               This page is a preview.{" "}
               <a
                 href="/api/exit-preview"
-                className="underline hover:text-teal-300 duration-200 transition-colors"
+                className="underline transition-colors duration-200 hover:text-teal-300"
               >
                 Click here
               </a>{" "}
