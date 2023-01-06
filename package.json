@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix && yarn -s prettier --write",
     "test": "jest",
     "clean": "yarn build --build --clean",
     "prettier": "prettier --check '**/*'"

@@ -1,5 +1,5 @@
 module.exports = {
   arrowParens: "avoid",
-  tabwidth: 2,
+  tabWidth: 2,
   semi: false,
 }
