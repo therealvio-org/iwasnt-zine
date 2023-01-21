@@ -7,13 +7,13 @@ module.exports = {
         punkboy: ["Punkboy"],
       },
       colors: {
+        'theme-colour': '#79FFE1',
         black: "#000",
         white: "#FFF",
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
         success: '#0070f3',
-        cyan: '#79FFE1',
       },
       spacing: {
         28: '7rem',

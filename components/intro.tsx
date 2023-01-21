@@ -6,7 +6,7 @@ const Intro = () => {
       <h1 className="font-punkboy text-5xl leading-tight tracking-tighter md:pr-8 md:text-8xl">
         {TITLE}
       </h1>
-      <h1 className="font-punkboy text-5xl leading-tight tracking-tighter text-cyan md:pr-8 md:text-8xl">
+      <h1 className="font-punkboy text-5xl leading-tight tracking-tighter text-theme-colour md:pr-8 md:text-8xl">
         [{SUBTITLE}]
       </h1>
     </section>
