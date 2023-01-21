@@ -1,9 +1,10 @@
+import { TITLE } from "../lib/constants"
 import Link from "next/link"
 
 const Header = () => {
   return (
     <h2 className="mb-20 mt-8 font-punkboy text-2xl font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter">
-      <Link href="/">IWASNT</Link>
+      <Link href="/">{TITLE}</Link>
     </h2>
   )
 }

@@ -1,3 +1,4 @@
+import { FULL_TITLE } from "../lib/constants"
 import { getAllPosts } from "../lib/api"
 import Container from "../components/container"
 import Head from "next/head"
@@ -18,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>IWASNT</title>
+          <title>{FULL_TITLE}</title>
         </Head>
         <Container>
           <Intro />

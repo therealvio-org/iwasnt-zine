@@ -1,3 +1,4 @@
+import { TITLE } from "../../lib/constants"
 import { getAllPosts, getPostBySlug } from "../../lib/api"
 import { useRouter } from "next/router"
 import Container from "../../components/container"
@@ -32,7 +33,9 @@ export default function Post({ post, preview }: Props) {
           <>
             <article className="mb-32">
               <Head>
-                <title>{post.title} | IWASNT</title>
+                <title>
+                  {post.title} | {TITLE}
+                </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
