@@ -1,10 +1,10 @@
+// development controls
+export const PREVIEW_MODE = process.env.NEXT_PUBLIC_PREVIEW_MODE === "true"
+
 // issue-specific constants
 export const TITLE = "IWASNT"
 export const SUBTITLE = "there" // this changes per issue
 export const FULL_TITLE = `${TITLE} [${SUBTITLE}]` // use when colouration of `subtitle` doesn't matter
-
-// development controls
-export const PREVIEW_MODE = true
 
 export const EXAMPLE_PATH = "blog-starter"
 export const CMS_NAME = "Markdown"
